@@ -3,15 +3,12 @@
  */
 package template.method;
 
-import static org.junit.Assert.assertThat;
-import static org.hamcrest.core.Is.*;
-
 import java.io.IOException;
 
-import org.hamcrest.core.Is;
 import org.junit.Before;
 import org.junit.Test;
-
+import static org.junit.Assert.assertThat;
+import static org.hamcrest.CoreMatchers.is;
 /**
  * @author 정명성
  * create date : 2016. 2. 12.
@@ -21,7 +18,8 @@ public class CalculatorTest {
 	Calculator calculator;
 	String numFilePath;
 	
-	@Before public void setUp() {
+	@Before 
+	public void setUp() {
 		this.calculator = new Calculator();
 		this.numFilePath = getClass().getResource("number.txt").getPath();
 	}
