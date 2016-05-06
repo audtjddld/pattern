@@ -3,8 +3,6 @@
  */
 package decorator.beverage;
 
-import decorator.size.Size;
-
 /**
  * @author 정명성
  * create date : 2016. 1. 13.
@@ -24,7 +22,7 @@ public class HubTee extends Beverage{
 	@Override
 	public double cost() {
 		// TODO Auto-generated method stub
-		return 5;
+		return 1.5;
 	}
 
 }

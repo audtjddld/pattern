@@ -12,7 +12,8 @@ import decorator.beverage.Beverage;
  */
 public abstract class CondimentDecorator extends Beverage {
 	
-	public abstract String getDescription();
+	double sizePercentCharge;
 	
-	public abstract double getSizePerCost();
+	public abstract String getDescription();
+
 }
