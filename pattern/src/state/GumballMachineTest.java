@@ -28,6 +28,9 @@ public class GumballMachineTest {
 		gumballMachine.insertQuarter();
 		gumballMachine.insertQuarter();
 		gumballMachine.turnCrank();
+		
+		System.out.println(gumballMachine);
+		
 		gumballMachine.insertQuarter();
 		gumballMachine.turnCrank();
 		gumballMachine.insertQuarter();
