@@ -22,7 +22,7 @@ public class Calculator {
 	 * @return
 	 * @throws Exception
 	 */
-	public Integer calcSum(String filePath) throws Exception {
+	public int calcSum(String filePath) throws Exception {
 		
 		LineCallback sumCallback = new LineCallback() {
 			
@@ -45,7 +45,7 @@ public class Calculator {
 	 * @param matcher
 	 * @return
 	 */
-	public Integer calMultiply(String filePath) throws IOException {
+	public int calMultiply(String filePath) throws IOException {
 		
 		LineCallback multiplyCallback = new LineCallback() {
 			
