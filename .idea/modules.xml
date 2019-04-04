@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pattern.iml" filepath="$PROJECT_DIR$/.idea/pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pattern.iml" filepath="$PROJECT_DIR$/.idea/modules/pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pattern.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pattern.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pattern.test.iml" filepath="$PROJECT_DIR$/.idea/modules/pattern.test.iml" />
     </modules>
   </component>
 </project>
